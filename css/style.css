@@ -1,0 +1,33 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerlogo {
+  height: 75px;
+  width: 75px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  background-image: url('/assets/websitelogo3.png');
+  background-size: cover;
+}
+
+.headquarters-logo {
+  height: 200px;
+  width: 200px;
+  background-color: lightgray;
+  border-radius: 50%;
+  background-image: url('/assets/jakarta.jpg');
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.output-box {
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  min-height: 200px;
+}
